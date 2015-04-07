@@ -1,3 +1,9 @@
+<#
+ # Author: Andrew Sullivan
+ # Reference: http://practical-admin.com/blog/netapp-powershell-toolkit-101-managing-volumes/
+ #
+#>
+
 function Get-NcVolQosPolicyGroup {
     [CmdletBinding()]
     param(
