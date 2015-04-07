@@ -1,3 +1,9 @@
+<#
+ # Author: Andrew Sullivan
+ # Reference: http://practical-admin.com/blog/powershell-recursively-show-group-membership-for-an-active-directory-object/
+ #
+#>
+
 function Get-GroupsForObject {
     [cmdletbinding()]
     param(
